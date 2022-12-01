@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(136, 136, 136);
+}
+
+.cards {
+  background-color: rgb(104, 104, 104);
+  width: 170px;
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards:hover {
+  background-color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "ta1 ta2 ta3 ta4"
+    "ta5 ta6 ta7 ta8"
+    "ta9 ta10 ta11 ta12"
+    "ta13 ta14 ta15 ta16";
+  grid-gap: 15px;
+  justify-content: center;
+  margin: 50px auto auto auto;
+}
+
+#id1 {
+  grid-area: ta1;
+}
+
+#id2 {
+  grid-area: ta2;
+}
+
+#id3 {
+  grid-area: ta3;
+}
+
+#id4 {
+  grid-area: ta4;
+}
+
+#id5 {
+  grid-area: ta5;
+}
+
+#id6 {
+  grid-area: ta6;
+}
+
+#id7 {
+  grid-area: ta7;
+}
+
+#id8 {
+  grid-area: ta8;
+}
+
+#id9 {
+  grid-area: ta9;
+}
+
+#id10 {
+  grid-area: ta10;
+}
+
+#id11 {
+  grid-area: ta11;
+}
+
+#id12 {
+  grid-area: ta12;
+}
+
+#id13 {
+  grid-area: ta13;
+}
+
+#id14 {
+  grid-area: ta14;
+}
+
+#id15 {
+  grid-area: ta15;
+}
+
+#id16 {
+  grid-area: ta16;
+}
+
+.score-container {
+  font-size: 26px;
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+}
+
+#score-text {
+  display: grid;
+  justify-content: center;
+}
